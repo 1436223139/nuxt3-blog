@@ -15,7 +15,7 @@ export default {
   MSClarityId: "",                                             // Microsoft的Clarity统计，https://clarity.microsoft.com/
   CloudflareAnalyze: "6095e9d5158e4407ba3eb1bf58592016",                                       // cloudflare的统计，https://developers.cloudflare.com/analytics/web-analytics
   CommentRepoId: "R_kgDOL6bgzw",                                           // https://giscus.app/zh-CN
-  CommentDiscussionCategoryId: "DIC_kwDOL6bgz84CfTUZ",                             // https://giscus.app/zh-CN
+  CommentDiscussionCategoryId: "DIC_kwDOL6bgz84CfTUY",                             // https://giscus.app/zh-CN
 
   Comment: {                                                   // 是否开启评论，请先设置上面的 CommentRepoId 和 CommentDiscussionCategoryId
     articles: true,                                            // “文章”是否开启评论
