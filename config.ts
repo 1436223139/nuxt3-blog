@@ -13,9 +13,9 @@ export default {
   SEO_title: " - MouRen blog",                              // 搜索引擎显示的标题
   SEO_keywords: "MouRen,MouRen's blog,某人,MouRen的博客", // keywords meta header
   MSClarityId: "",                                             // Microsoft的Clarity统计，https://clarity.microsoft.com/
-  CloudflareAnalyze: "",                                       // cloudflare的统计，https://developers.cloudflare.com/analytics/web-analytics
-  CommentRepoId: "",                                           // https://giscus.app/zh-CN
-  CommentDiscussionCategoryId: "",                             // https://giscus.app/zh-CN
+  CloudflareAnalyze: "d8883249cbcb4e0a9104e854d21d7d1d",                                       // cloudflare的统计，https://developers.cloudflare.com/analytics/web-analytics
+  CommentRepoId: "R_kgDOL6bgzw",                                           // https://giscus.app/zh-CN
+  CommentDiscussionCategoryId: "DIC_kwDOL6bgz84CfTUZ",                             // https://giscus.app/zh-CN
 
   Comment: {                                                   // 是否开启评论，请先设置上面的 CommentRepoId 和 CommentDiscussionCategoryId
     articles: true,                                            // “文章”是否开启评论
