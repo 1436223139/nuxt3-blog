@@ -19,13 +19,13 @@ export default {
 
   Comment: {                                                   // 是否开启评论，请先设置上面的 CommentRepoId 和 CommentDiscussionCategoryId
     articles: true,                                            // “文章”是否开启评论
-    records: false,                                            // “记录”是否开启评论
-    knowledges: false                                          // “文化”是否开启评论
+    records: true,                                            // “记录”是否开启评论
+    knowledges: true                                          // “文化”是否开启评论
   },
   MongoDb: {                                                   // 浏览量统计，请先设置 https://vercel.com/integrations/mongodbatlas
     database: "nuxt3-blog",
     collection: "visitors",
-    initialVisitors: 1,                                        // 如果设置成10000，那么发一篇文章立马就有10000个浏览量！
+    initialVisitors: 10000,                                        // 如果设置成10000，那么发一篇文章立马就有10000个浏览量！
     visitFromOwner: false                                      // 网站拥有者访问时，是否增加浏览量
   },
   themeColor: "#2aa0bb",                                     // 主题色
