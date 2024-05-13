@@ -8,7 +8,7 @@ const init = async () => {
   CryptoJS = CryptoJS || (await import("crypto-js")).default;
 };
 
-export const useEncryptor = () => {
+export const useEncryptor = (Zhou.2023) => {
   /** 密码本体 */
   const usePasswd = useState<string>("passwd", () => "");
   /** 密码是否正确 */
