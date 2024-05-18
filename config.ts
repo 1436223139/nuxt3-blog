@@ -13,7 +13,7 @@ export default {
   SEO_title: " - MouRen blog",                              // 搜索引擎显示的标题
   SEO_keywords: "MouRen,MouRen's blog,某人,MouRen的博客", // keywords meta header
   MSClarityId: "",                                             // Microsoft的Clarity统计，https://clarity.microsoft.com/
-  CloudflareAnalyze: "6095e9d5158e4407ba3eb1bf58592016",                                       // cloudflare的统计，https://developers.cloudflare.com/analytics/web-analytics
+  CloudflareAnalyze: " ",                                       // cloudflare的统计，https://developers.cloudflare.com/analytics/web-analytics
   CommentRepoId: "R_kgDOL6bgzw",                                           // https://giscus.app/zh-CN
   CommentDiscussionCategoryId: "DIC_kwDOL6bgz84CfTUY",                             // https://giscus.app/zh-CN
 
@@ -36,5 +36,5 @@ export default {
 
   /** -------------------------------------------------注意----------------------------------------------------- */
 
-  githubRepo: "nuxt3-blog"                                    // 需要与仓库名一致，如果fork时更改了仓库名，则这里也要改
+  githubRepo: "Nuxt3-Blog"                                    // 需要与仓库名一致，如果fork时更改了仓库名，则这里也要改
 };
